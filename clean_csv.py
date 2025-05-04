@@ -1,6 +1,7 @@
 import pandas as pd
 import argparse
 
+
 def clean_csv(input_file, output_file, columns_to_keep):
     """
     Cleans a CSV file by selecting only specified columns and saves the result.
